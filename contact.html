@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Quick Bite</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--
+  This page is a basic contact page so customer can contact us with what they would like and we can
+  set them up with how they want thier food service
+-->
+
+<!--
+  Student Note:
+  This page was built for the Quick Bite website project.
+  I tried to follow the wireframe layout from the assignment.
+  Some spacing and colors were adjusted so the page looks cleaner.
+
+  NOTE: I might still tweak the styling later if needed.
+  (also need to double check mobile spacing maybe)
+-->
+
+  <!-- Promo banner for sale code shown on every page -->
+<div class="promo-banner">Limited Time Offer — Use Code <strong>QUICK10</strong> for 10% Off!</div>
+  <!-- Header section I built for the logo + nav menu -->
+<!-- Header: contains logo and navigation menu -->
+<header class="site-header">
+    <div class="container nav-bar">
+      <a href="index.html" class="logo-link">
+        <img src="images/logo.png" alt="Quick Bite logo" class="logo">
+      </a>
+      <!-- Navigation links so users can move between pages -->
+<nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="meals.html">Meals</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <div class="container contact-wrap">
+      <div class="contact-info">
+        <h1>Contact Us</h1>
+        <p>Questions about meals or weekly plans? Send us a message below.</p>
+        <p><strong>Email:</strong> hello@quickbite.com</p>
+        <p><strong>Phone:</strong> (555) 123-4567</p>
+      </div>
+
+      <!-- Contact form where users can send a message -->
+<form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </main>
+
+  <!-- Footer I added with links + contact info -->
+<!-- Footer area with extra links and contact info -->
+<footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Quick Bite</h3>
+        <p>Healthy meal prep that is fresh, simple, and affordable.</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="meals.html">Meals</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>hello@quickbite.com</li>
+          <li>(555) 123-4567</li>
+          <li>Fresh meals every week</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
